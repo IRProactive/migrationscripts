@@ -6,7 +6,7 @@
     installs it with the required CID, and logs the process.
 .NOTES
     Requires: Administrator privileges
-    Author: IT Security Admin
+    Author: IR Proacctive
     Date: 2026-01-23
 #>
 
@@ -69,4 +69,5 @@ try {
 } catch {
     Write-Log "ERROR: $($_.Exception.Message)"
     throw
+
 }
